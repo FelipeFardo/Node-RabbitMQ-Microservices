@@ -8,6 +8,13 @@
       "when": 1763074122032,
       "tag": "0000_fast_butterfly",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1763093381850,
+      "tag": "0001_brief_thaddeus_ross",
+      "breakpoints": true
     }
   ]
 }
