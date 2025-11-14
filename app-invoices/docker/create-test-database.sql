@@ -1,1 +1,1 @@
-CREATE DATABASE orders_test
+CREATE DATABASE invoices_test
