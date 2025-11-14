@@ -7,7 +7,14 @@ services:
     protocol: http
     host: host.docker.internal
     port: 3333
-    path: /orders
+    path: /
+    routes:
+      - name: api
+        protocols:
+          - http
+          - https
+        paths:
+          - /orders
 
 
 plugins:
@@ -25,4 +32,3 @@ plugins:
        - Accept
        - Content-Type
        - Authorization
-       
