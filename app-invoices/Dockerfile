@@ -22,7 +22,7 @@ RUN adduser --system --uid 1001 api
 
 RUN chown api:nodejs . 
 
-COPY --chown=api:nodes . .
+COPY --chown=api:nodejs  . .
 COPY --from=deps /app/node_modules ./node_modules
 
 USER api
