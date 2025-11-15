@@ -35,7 +35,7 @@ export const ordersDockerImage = new docker.Image('orders-image',{
 
 const cluster  = new awsx.classic.ecs.Cluster('app-cluster')
 
-const ordersService = new awsx.classic.ecs.FargateService("fargate-orders",{
+const ordersService = new awsx.classic.ecs.FargateService("fargate-orders", {
   cluster,
   desiredCount:1,
   waitForSteadyState: false,
