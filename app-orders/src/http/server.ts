@@ -14,7 +14,7 @@ import {
 import { schema } from '../db/schema/index.ts'
 import { db } from '../db/client.ts'
 import { dispatchOrderCreated } from '../broker/messages/order-created.ts'
-import { tracer } from "../tracer/tracer.ts"
+import { tracer } from "../../../docker/kong/tracer/tracer.ts"
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
 
